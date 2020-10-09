@@ -1,0 +1,1 @@
+let articles=document.querySelectorAll(".article_items"),filter=document.querySelector(".list_tags");filter.onchange=function(){for(let e of articles)e.dataset.category!==filter.value&&"all"!==filter.value?e.classList.add("hidden"):e.classList.remove("hidden")};

@@ -1,0 +1,1 @@
+let like=document.querySelector(".like"),likesNumber=document.querySelector(".likes-number");like.onclick=function(){like.classList.contains("added")?likesNumber.textContent--:likesNumber.textContent++,like.classList.toggle("added")};
